@@ -30,7 +30,9 @@ Module.register("MMM-Online-State", {
             wrapper.appendChild(symbolWrapper);
         }
         if (this.config.displayText) {
-            wrapper.innerHTML = this.translate(state ? "online" : "offline");
+            const textElement = document.createElement("div");
+            textElement.innerHTML = this.translate(state ? "online" : "offline");
+            wrapper.appendChild(textElement);
         }
         return wrapper;
     },
