@@ -4,6 +4,7 @@ Module.register("MMM-Online-State", {
         displaySymbol: true,
         symbolOnline: "wifi",
         symbolOffline: "wifi",
+        colored: true,
         colorOnline: "#fff",
         colorOffline: "red"
     },

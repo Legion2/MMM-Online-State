@@ -16,5 +16,6 @@ git clone https://github.com/Legion2/MMM-Online-State.git
 | `displayText`   | `false`     | Display the state as text                                                                  |
 | `symbolOnline`  | `wifi`      | The symbol for the online state. See [Font Awsome](http://fontawesome.io/icons/) website.  |
 | `symbolOffline` | `wifi`      | The symbol for the offline state. See [Font Awsome](http://fontawesome.io/icons/) website. |
+| `colored`       | `true`      | Should the symbols be colored.                                                             |
 | `colorOnline`   | `#fff`      | The color for the online state.                                                            |
 | `colorOffline`  | `red`       | The color for the offline state.                                                           |
