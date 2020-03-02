@@ -22,10 +22,10 @@ Module.register("MMM-Online-State", {
             if (this.config.colored) {
                 symbolWrapper.style.cssText = "color:" + this.colorForState(state);
             }
-            const symbolClass = this.symbolClassForState(state);
-            const symbol = document.createElement("span");
-            symbol.className = "fa fa-fw fa-" + symbol;
-            symbolWrapper.appendChild(symbol);
+            const symbol = this.symbolForState(state);
+            const symbolElement = document.createElement("span");
+            symbolElement.className = "fa fa-fw fa-" + symbol;
+            symbolWrapper.appendChild(symbolElement);
             wrapper.appendChild(symbolWrapper);
         }
         if (this.config.displayText) {
@@ -36,7 +36,7 @@ Module.register("MMM-Online-State", {
     colorForState: function (state) {
         return state ? this.config.colorOnline : this.config.colorOffline;
     },
-    symbolClassForState: function (state) {
+    symbolForState: function (state) {
         return state ? this.config.symbolOnline : this.config.symbolOffline;
     }
 });
