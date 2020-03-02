@@ -10,4 +10,11 @@ cd modules
 git clone https://github.com/Legion2/MMM-Online-State.git
 ```
 ## Configuration Options
-There are currently no configuration options.
+| **Option**      | **Default** | **Description**                                                                            |
+|-----------------|-------------|--------------------------------------------------------------------------------------------|
+| `displaySymbol` | `true`      | Display the state as symbol                                                                |
+| `displayText`   | `false`     | Display the state as text                                                                  |
+| `symbolOnline`  | `wifi`      | The symbol for the online state. See [Font Awsome](http://fontawesome.io/icons/) website.  |
+| `symbolOffline` | `wifi`      | The symbol for the offline state. See [Font Awsome](http://fontawesome.io/icons/) website. |
+| `colorOnline`   | `#fff`      | The color for the online state.                                                            |
+| `colorOffline`  | `red`       | The color for the offline state.                                                           |
