@@ -2,6 +2,8 @@
 Displays the network connection availability of the browser.
 This MagicMirror Module uses the `Navigator.onLine` [Browser API](https://whatwebcando.today/online-state.html) to check if there is a network connection.
 
+![Screenshot of online state](online_state_screenshot.png)
+
 ## Installation
 Run these commands at the root of your magic mirror install.
 
